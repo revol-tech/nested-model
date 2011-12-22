@@ -1,0 +1,1 @@
+<%= link_to "add", projects_new_path %>

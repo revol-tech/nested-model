@@ -1,0 +1,12 @@
+<%= semantic_form_for [@projects,@persons] do |f| %>
+    <%= f.inputs %>
+    
+    <h2>person</h2>
+    
+    <%= form.semantic_fields_for :person do |person| %>
+    <%= person.inputs %>
+  <% end %>
+
+    <%= f.buttons %>
+  <% end %>
+

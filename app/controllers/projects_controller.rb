@@ -1,0 +1,23 @@
+class ProjectsController < ApplicationController
+  def index
+    
+  end
+
+  def create
+  end
+
+  def new
+    @projects =Project.new
+    @projects.persons.build
+   end
+
+  def update
+  end
+
+  def edit
+  end
+
+  def destroy
+  end
+
+end
